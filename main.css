@@ -1,7 +1,9 @@
 /* Estilos para o relógio digital */
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
+    background-color: #f9f9f9;
 }
 
 .relogio {
@@ -14,12 +16,10 @@ html, body {
 }
 
 .display {
-    line-height: 10px;
     text-align: center;
     font-size: 10rem;
     font-weight: bold;
     color: #333;
-    background-color: #f9f9f9;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
