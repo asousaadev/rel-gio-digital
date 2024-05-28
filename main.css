@@ -1,0 +1,35 @@
+/* Estilos para o relógio digital */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.relogio {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.display {
+    line-height: 10px;
+    text-align: center;
+    font-size: 10rem;
+    font-weight: bold;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    color: #888;
+}
+
+footer img {
+    height: 25rem;
+    margin-top: 0;
+}
