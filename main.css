@@ -6,6 +6,16 @@ body {
     background-color: #f9f9f9;
 }
 
+html {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .relogio {
     max-width: 100%;
     display: flex;
@@ -26,7 +36,26 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-footer img {
-    max-width: 30%;
-    height: auto;
+@media screen and (max-width: 767px) {
+    .conteudo {
+        display: block;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .container{
+        max-width: 90%;
+    }
+
+
+}
+
+@media screen and (min-width:1024px ){
+
+    
 }
