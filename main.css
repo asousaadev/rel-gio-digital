@@ -37,11 +37,12 @@ html {
 }
 
 @media screen and (max-width: 767px) {
-    .conteudo {
+    .container {
         display: block;
     }
 
     .container {
+        display: block;
         max-width: 90%;
     }
 
@@ -49,6 +50,7 @@ html {
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
     .container{
+        display: block;
         max-width: 90%;
     }
 
